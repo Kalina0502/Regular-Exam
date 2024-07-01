@@ -1,0 +1,289 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    width: 50px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #1cb854;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px; 
+}
+
+.banner h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px; 
+    color: white;
+    margin: 0;
+    margin-top: -160px; 
+}
+
+.music-image {
+    position: absolute;
+    top: 120px; 
+    left: 0; 
+    width: 600px; 
+    z-index: 2;
+}
+
+.music-image img {
+    width: 100%;
+    height: auto;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+    margin-top: -180px;
+}
+
+.plan {
+    background-color: white;
+    border: 2px solid rgb(22, 22, 22);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.plan h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    text-align: left;   
+    margin-left: 20px;
+}
+
+.plan ul li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.plan button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 8px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.price-container {
+    background-color: #000;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.price-container .price {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    border-right: 1px solid white;
+    flex: 1; 
+}
+
+.price-container .price:last-child {
+    border-right: none;
+}
+
+
+.plan button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.plan p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dogopal {
+    display: flex;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.dogopal img {
+    width: 350px; 
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.dogopal-content {
+    max-width: 800px; 
+    text-align: left;
+    margin-left: 20px; 
+}
+
+.dogopal h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #000000; 
+    margin: 0 0 10px 0;
+    padding-left: 0;
+}
+
+.dogopal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px; 
+}
+
+.dogopal ul li {
+    margin: 10px 0;
+}
+
+.difference {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+.difference {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.difference h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #000000;
+}
+
+.difference p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.difference table {
+    width: 80%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.difference table th, .difference table td {
+    padding: 10px;
+    border: none; 
+}
+
+.difference table tr:nth-child(odd) {
+    background-color: #cccbcb;
+}
+
+.difference table tr:nth-child(even) {
+    background-color: #81d8a0; 
+}
+
+.difference table th {
+    background-color: #189443;
+    color: white;
+    text-align: center;
+}
+
+.difference table td {
+    text-align: left;
+    position: relative;
+}
+
+.difference table td img {
+    width: 20px;
+    height: 20px;
+    position: center;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-8%);
+}
+
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
